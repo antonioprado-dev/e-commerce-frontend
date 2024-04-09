@@ -18,6 +18,8 @@ export async function generateStaticParams() {
 	}));
 }
 
+export const dynamicParams = false;
+
 export default function Category({ params }: Props) {
 	const { cat } = params;
 
