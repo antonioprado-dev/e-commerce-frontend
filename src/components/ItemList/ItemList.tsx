@@ -1,7 +1,5 @@
+import { capitalize } from '@/helpers/helpers';
 import { ProductList } from './productList';
-
-const capitalize = <T extends string>(s: T) =>
-	(s[0].toUpperCase() + s.slice(1)) as Capitalize<typeof s>;
 
 export default function ItemList({
 	products,
